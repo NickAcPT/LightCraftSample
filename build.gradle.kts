@@ -2,7 +2,7 @@ import io.github.nickacpt.lightcraft.gradle.minecraft.ClientVersion
 
 plugins {
     java
-    id("io.github.nickacpt.lightcraft.gradle") version "1.0-SNAPSHOT"
+    id("io.github.nickacpt.lightcraft.gradle") version "1.3.1-SNAPSHOT"
 }
 
 group = "io.github.nickacpt.lightcraft.sample"
@@ -14,5 +14,5 @@ repositories {
 
 lightcraft {
     clientVersion = ClientVersion.V1_7_10
-    provideOptifineJarMod = true
+    provideOptifineJarMod = false
 }
